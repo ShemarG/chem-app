@@ -103,7 +103,12 @@ export default {
 
 <style>
 
+  html {
+    overflow-x: hidden;
+  }
+
   body {
+    overflow-x: hidden;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -125,10 +130,10 @@ export default {
     color: white;
     font-size: 4vh;
     border: 5px solid deepskyblue;
-    padding: 1.5% 5%;
+    padding: 1vh 3vh;
     border-radius: 15px;
     font-family: Pangolin;
-    width: 46vh;
+    width: 37vh;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -137,7 +142,7 @@ export default {
   }
 
   .answer-container {
-    width: 40vh;
+    width: 37vh;
     margin-top: 2rem;
     z-index: 1;
     display: flex;
@@ -148,7 +153,7 @@ export default {
     overflow: hidden;
     border: 4px solid grey;
     border-radius: 3vh;
-    padding: 2vh;
+    padding: 3vh;
   }
 
   .answer-container:before {
@@ -166,7 +171,7 @@ export default {
   }
 
   .scoreboard-container {
-    width: 44vh;
+    width: 37vh;
     display: flex;
     margin-top: 4vh;
     align-items: center;
@@ -174,7 +179,7 @@ export default {
     flex-direction: column;
     background-color: black;
     color: deepskyblue;
-    padding: 3vh  3vh;
+    padding: 3vh;
     font-size: 3vh;
     border-radius: 3vh;
     font-family: monospace;
