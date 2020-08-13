@@ -180,7 +180,7 @@ export default {
     background-color: black;
     color: deepskyblue;
     padding: 3vh;
-    font-size: 3vh;
+    font-size: 2.75vh;
     border-radius: 3vh;
     font-family: monospace;
     border: 5px solid deepskyblue;
